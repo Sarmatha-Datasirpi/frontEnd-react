@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Mozzarella Sticks",
+      "description": "Crispy fried mozzarella sticks served with marinara sauce.",
+      "price": 10.99
+      
+    },
+    {
+      "id": 2,
+      "name": "Edamame",
+      "description": "Steamed soybeans served with salt.",
+      "price": 6.99
+      
+    },
+    {
+      "id": 3,
+      "name": "Guacamole and Chips",
+      "description": "Fresh guacamole and tortilla chips served with salsa.",
+      "price": 8.99
+      
+    },
+    {
+      "id": 4,
+      "name": "Steak frites",
+      "description": "Grilled New York strip steak served with French fries and béarnaise sauce.",
+      "price": 29.99
+      
+    },
+    {
+      "id": 5,
+      "name": "Salmon with roasted vegetables",
+      "description": "Pan-seared salmon served with roasted vegetables and lemon butter sauce.",
+      "price": 26.99
+      
+    },
+    {
+    "id": 6,
+    "name": "Pad Thai",
+    "description": "Stir-fried rice noodles with shrimp, chicken, or tofu, vegetables, and peanuts.",
+    "price": 18.99
+    
+    },
+    {
+      "id": 7,
+      "name": "Chocolate Lava Cake",
+      "description": "Warm chocolate cake with a molten chocolate center served with vanilla ice cream.",
+      "price": 9.99
+      
+    },
+    {
+      "id": 8,
+      "name": "Tiramisu",
+      "description": "Ladyfingers dipped in espresso and layered with mascarpone cream and cocoa powder.",
+      "price": 8.99
+      
+    },
+    {
+      "id": 9,
+      "name": "Ice Cream Sundae",
+      "description": "Two scoops of ice cream topped with whipped cream, chocolate sauce, and sprinkles.",
+      "price": 6.99
+      
+    }
+  ]
+}
