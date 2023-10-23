@@ -1,0 +1,178 @@
+
+.dndflow {
+
+  flex-direction: row;
+
+  display: flex;
+
+  height: 100%;
+
+}
+
+
+
+
+.aside {
+
+  border-right: 1px solid #eee;
+
+  padding: 5px;
+
+  font-size: 12px;
+
+  background: #fcfcfc;
+
+  height: 70vh;
+
+  overflow-y: auto;
+
+  width: 80px;
+
+  display: flex;
+  /* justify-content: space-evenly; */
+  flex-wrap: wrap;
+  margin-top: 3rem;
+
+}
+
+
+
+
+.aside::-webkit-scrollbar {
+
+  width: 5px;
+
+}
+
+
+
+
+.aside::-webkit-scrollbar-track {
+
+  background: #f1f1f1;
+
+}
+
+
+
+
+.aside::-webkit-scrollbar-thumb {
+
+  background: #888;
+
+  border-radius: 4px;
+
+}
+
+
+
+
+.aside::-webkit-scrollbar-thumb:hover {
+
+  background: #555;
+
+}
+
+
+
+
+.aside > * {
+
+  margin-bottom: 10px;
+
+  cursor: grab;
+
+}
+
+
+
+
+.description {
+
+  margin-bottom: 10px;
+
+}
+
+
+
+
+.wrapper {
+
+  flex-grow: 1;
+
+  height: 100%;
+
+}
+
+
+
+
+/* @media screen and (min-width: 768px) { */
+
+  .aside {
+
+    width: 30vw;
+
+  /* } */
+
+
+
+
+  .dndflow {
+
+    flex-direction: row;
+
+  }
+
+}
+
+.available-interfaces {
+  padding: 10px;
+    background-color: rgb(243, 242, 242);
+    font-weight: bolder;
+    border-radius: 5px;
+    color: blue;
+    margin-left: 10vw;
+    text-align: center;
+}
+
+.scrollbar-css {
+  width: 5px;
+  overflow: scroll;
+
+}
+
+.scrollbar-css::-webkit-scrollbar {
+
+  width: 5px;
+
+}
+
+
+
+
+.scrollbar-css::-webkit-scrollbar-track {
+
+  background: #f1f1f1;
+
+}
+
+
+
+
+.scrollbar-css::-webkit-scrollbar-thumb {
+
+  background: #888;
+
+  border-radius: 4px;
+
+}
+
+
+
+
+.scrollbar-css::-webkit-scrollbar-thumb:hover {
+
+  background: #555;
+
+}

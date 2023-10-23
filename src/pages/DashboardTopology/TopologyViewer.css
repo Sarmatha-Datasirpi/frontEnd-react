@@ -1,0 +1,94 @@
+.link {
+    stroke: #000;
+    stroke-width: 1px;
+    height: 100vh;
+    width: 50vw;
+}
+
+.node {
+    cursor: move;
+}
+
+.circle{
+    cursor: move;
+    stroke: #000;
+    stroke-width: 1px;
+}
+
+.rect{
+    cursor: move;
+    stroke: #000;
+    stroke-width: 1px;
+}
+
+.node.router{
+    fill: #BDA3A3;
+}
+
+.node.edge {
+    fill: #0ec4ed !important;
+}
+
+.node.switch {
+    fill: #6f90c5;
+}
+
+.node.text {
+    pointer-events: none;
+    font: 10px sans-serif;
+}
+
+
+div.vis-network div.vis-navigation div.vis-button.vis-up, 
+div.vis-network div.vis-navigation div.vis-button.vis-down, 
+div.vis-network div.vis-navigation div.vis-button.vis-left, 
+div.vis-network div.vis-navigation div.vis-button.vis-right, 
+div.vis-network div.vis-navigation div.vis-button.vis-zoomIn, 
+div.vis-network div.vis-navigation div.vis-button.vis-zoomOut, 
+div.vis-network div.vis-navigation div.vis-button.vis-zoomExtends {
+  background-image: none !important;
+}
+
+div.vis-network div.vis-navigation div.vis-button:hover {
+  box-shadow: none !important;
+}
+
+.vis-button:after {
+  font-size: 2.5em;
+  color: rgb(191, 179, 179);
+}
+
+.vis-button:hover:after {
+  font-size: 2.5em;
+  color: lightgray;
+}
+
+.vis-button.vis-up:after {
+  content: "▲";
+}
+
+.vis-button.vis-down:after {
+  content: "▼";
+}
+
+.vis-button.vis-left:after {
+  content: "◀";
+}
+
+.vis-button.vis-right:after {
+  content: "▶";
+}
+
+.vis-button.vis-zoomIn:after {
+  content: "+";
+  font-weight: bold;
+}
+
+.vis-button.vis-zoomOut:after {
+  content: "−";
+  font-weight: bold;
+}
+
+.vis-button.vis-zoomExtends:after {
+  content: "⤧";
+}

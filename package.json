@@ -1,0 +1,127 @@
+{
+  "name": "DPB-NMS",
+  "version": "2.4.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.11.16",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "apexcharts": "^3.41.0",
+    "axios": "^0.26.0",
+    "bootstrap": "5.2.3",
+    "chart.js": "^4.3.0",
+    "formik": "^2.2.9",
+    "gridjs": "^6.0.6",
+    "gridjs-react": "^6.0.1",
+    "i18next": "^22.4.10",
+    "i18next-browser-languagedetector": "^7.0.1",
+    "list.js": "^2.3.1",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43",
+    "prismjs": "^1.29.0",
+    "react": "^18.2.0",
+    "react-apexcharts": "^1.4.0",
+    "react-bootstrap": "^2.7.2",
+    "react-chartjs-2": "^5.2.0",
+    "react-csv": "^2.2.2",
+    "react-dom": "^18.2.0",
+    "react-flatpickr": "^3.10.13",
+    "react-graph-vis": "^1.0.7",
+    "react-i18next": "^12.2.0",
+    "react-icons": "^4.8.0",
+    "react-redux": "^8.0.5",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.8.1",
+    "react-scripts": "^5.0.1",
+    "react-select": "^5.7.0",
+    "react-table": "^7.8.0",
+    "react-toastify": "^9.1.1",
+    "react-tooltip": "^5.11.1",
+    "reactflow": "^11.7.0",
+    "reactstrap": "^9.1.6",
+    "redux": "^4.2.1",
+    "redux-saga": "^1.2.2",
+    "saas": "^1.0.0",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2",
+    "simplebar-react": "^3.2.1",
+    "tss-react": "^4.8.2",
+    "web-vitals": "^3.1.1",
+    "yarn": "^1.22.19",
+    "yup": "^1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build --max_old_space_size=8000 build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "format": "prettier --write \"**/*.{js,jsx,json,md,html,css,less,scss}\""
+  },
+  "babelOptions": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "react-app"
+    ],
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+      "requireConfigFile": false,
+      "ecmaVersion": 2020,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "env": {
+      "browser": true,
+      "es6": true
+    },
+    "globals": {
+      "$": true
+    },
+    "settings": {
+      "react": {
+        "version": "^17.0.1"
+      }
+    },
+    "rules": {
+      "semi": 0,
+      "react/no-unescaped-entities": 0,
+      "react/react-in-jsx-scope": "off",
+      "react/prop-types": "off",
+      "no-unused-vars": "off",
+      "no-extra-boolean-cast": 0,
+      "react/no-unknown-property": "off"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "resolutions": {
+    "moment": "2.29.1",
+    "autoprefixer": "10.4.5"
+  },
+  "devDependencies": {
+    "babel-plugin-prismjs": "^2.1.0",
+    "css-loader": "^6.8.1",
+    "webpack-cli": "^5.1.1"
+  }
+}

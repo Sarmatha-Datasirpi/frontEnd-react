@@ -1,0 +1,4646 @@
+{
+    "openconfig-interfaces:interfaces": {
+        "interface": [
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet0"
+                },
+                "name": "Ethernet0",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 1,
+                    "mtu": 9100,
+                    "name": "Ethernet0",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.0",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.0",
+                                            "state": {
+                                                "ip": "10.0.0.0",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet1"
+                },
+                "name": "Ethernet1",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 2,
+                    "mtu": 9100,
+                    "name": "Ethernet1",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.2",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.2",
+                                            "state": {
+                                                "ip": "10.0.0.2",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet10"
+                },
+                "name": "Ethernet10",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 11,
+                    "mtu": 9100,
+                    "name": "Ethernet10",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.20",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.20",
+                                            "state": {
+                                                "ip": "10.0.0.20",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet11"
+                },
+                "name": "Ethernet11",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 12,
+                    "mtu": 9100,
+                    "name": "Ethernet11",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.22",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.22",
+                                            "state": {
+                                                "ip": "10.0.0.22",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet12"
+                },
+                "name": "Ethernet12",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 13,
+                    "mtu": 9100,
+                    "name": "Ethernet12",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.24",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.24",
+                                            "state": {
+                                                "ip": "10.0.0.24",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet13"
+                },
+                "name": "Ethernet13",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 14,
+                    "mtu": 9100,
+                    "name": "Ethernet13",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.26",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.26",
+                                            "state": {
+                                                "ip": "10.0.0.26",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet14"
+                },
+                "name": "Ethernet14",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 15,
+                    "mtu": 9100,
+                    "name": "Ethernet14",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.28",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.28",
+                                            "state": {
+                                                "ip": "10.0.0.28",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet15"
+                },
+                "name": "Ethernet15",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 16,
+                    "mtu": 9100,
+                    "name": "Ethernet15",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.30",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.30",
+                                            "state": {
+                                                "ip": "10.0.0.30",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet16"
+                },
+                "name": "Ethernet16",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 17,
+                    "mtu": 9100,
+                    "name": "Ethernet16",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.32",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.32",
+                                            "state": {
+                                                "ip": "10.0.0.32",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet17"
+                },
+                "name": "Ethernet17",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 18,
+                    "mtu": 9100,
+                    "name": "Ethernet17",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.34",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.34",
+                                            "state": {
+                                                "ip": "10.0.0.34",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet18"
+                },
+                "name": "Ethernet18",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 19,
+                    "mtu": 9100,
+                    "name": "Ethernet18",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.36",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.36",
+                                            "state": {
+                                                "ip": "10.0.0.36",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet19"
+                },
+                "name": "Ethernet19",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 20,
+                    "mtu": 9100,
+                    "name": "Ethernet19",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.38",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.38",
+                                            "state": {
+                                                "ip": "10.0.0.38",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet2"
+                },
+                "name": "Ethernet2",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 3,
+                    "mtu": 9100,
+                    "name": "Ethernet2",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.4",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.4",
+                                            "state": {
+                                                "ip": "10.0.0.4",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet20"
+                },
+                "name": "Ethernet20",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 21,
+                    "mtu": 9100,
+                    "name": "Ethernet20",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.40",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.40",
+                                            "state": {
+                                                "ip": "10.0.0.40",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet21"
+                },
+                "name": "Ethernet21",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 22,
+                    "mtu": 9100,
+                    "name": "Ethernet21",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.42",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.42",
+                                            "state": {
+                                                "ip": "10.0.0.42",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet22"
+                },
+                "name": "Ethernet22",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 23,
+                    "mtu": 9100,
+                    "name": "Ethernet22",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.44",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.44",
+                                            "state": {
+                                                "ip": "10.0.0.44",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet23"
+                },
+                "name": "Ethernet23",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 24,
+                    "mtu": 9100,
+                    "name": "Ethernet23",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.46",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.46",
+                                            "state": {
+                                                "ip": "10.0.0.46",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet24"
+                },
+                "name": "Ethernet24",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 25,
+                    "mtu": 9100,
+                    "name": "Ethernet24",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.48",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.48",
+                                            "state": {
+                                                "ip": "10.0.0.48",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet25"
+                },
+                "name": "Ethernet25",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 26,
+                    "mtu": 9100,
+                    "name": "Ethernet25",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.50",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.50",
+                                            "state": {
+                                                "ip": "10.0.0.50",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet26"
+                },
+                "name": "Ethernet26",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 27,
+                    "mtu": 9100,
+                    "name": "Ethernet26",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.52",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.52",
+                                            "state": {
+                                                "ip": "10.0.0.52",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet27"
+                },
+                "name": "Ethernet27",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 28,
+                    "mtu": 9100,
+                    "name": "Ethernet27",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.54",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.54",
+                                            "state": {
+                                                "ip": "10.0.0.54",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet28"
+                },
+                "name": "Ethernet28",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 29,
+                    "mtu": 9100,
+                    "name": "Ethernet28",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.56",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.56",
+                                            "state": {
+                                                "ip": "10.0.0.56",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet29"
+                },
+                "name": "Ethernet29",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 30,
+                    "mtu": 9100,
+                    "name": "Ethernet29",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.58",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.58",
+                                            "state": {
+                                                "ip": "10.0.0.58",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet3"
+                },
+                "name": "Ethernet3",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 4,
+                    "mtu": 9100,
+                    "name": "Ethernet3",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.6",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.6",
+                                            "state": {
+                                                "ip": "10.0.0.6",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet30"
+                },
+                "name": "Ethernet30",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 31,
+                    "mtu": 9100,
+                    "name": "Ethernet30",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.60",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.60",
+                                            "state": {
+                                                "ip": "10.0.0.60",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet31"
+                },
+                "name": "Ethernet31",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 32,
+                    "mtu": 9100,
+                    "name": "Ethernet31",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.62",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.62",
+                                            "state": {
+                                                "ip": "10.0.0.62",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet32"
+                },
+                "name": "Ethernet32",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 33,
+                    "mtu": 9100,
+                    "name": "Ethernet32",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.64",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.64",
+                                            "state": {
+                                                "ip": "10.0.0.64",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet33"
+                },
+                "name": "Ethernet33",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 34,
+                    "mtu": 9100,
+                    "name": "Ethernet33",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.66",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.66",
+                                            "state": {
+                                                "ip": "10.0.0.66",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet34"
+                },
+                "name": "Ethernet34",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 35,
+                    "mtu": 9100,
+                    "name": "Ethernet34",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.68",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.68",
+                                            "state": {
+                                                "ip": "10.0.0.68",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet35"
+                },
+                "name": "Ethernet35",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 36,
+                    "mtu": 9100,
+                    "name": "Ethernet35",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.70",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.70",
+                                            "state": {
+                                                "ip": "10.0.0.70",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet36"
+                },
+                "name": "Ethernet36",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 37,
+                    "mtu": 9100,
+                    "name": "Ethernet36",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.72",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.72",
+                                            "state": {
+                                                "ip": "10.0.0.72",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet37"
+                },
+                "name": "Ethernet37",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 38,
+                    "mtu": 9100,
+                    "name": "Ethernet37",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.74",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.74",
+                                            "state": {
+                                                "ip": "10.0.0.74",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet38"
+                },
+                "name": "Ethernet38",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 39,
+                    "mtu": 9100,
+                    "name": "Ethernet38",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.76",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.76",
+                                            "state": {
+                                                "ip": "10.0.0.76",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet39"
+                },
+                "name": "Ethernet39",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 40,
+                    "mtu": 9100,
+                    "name": "Ethernet39",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.78",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.78",
+                                            "state": {
+                                                "ip": "10.0.0.78",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet4"
+                },
+                "name": "Ethernet4",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 5,
+                    "mtu": 9100,
+                    "name": "Ethernet4",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.8",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.8",
+                                            "state": {
+                                                "ip": "10.0.0.8",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet40"
+                },
+                "name": "Ethernet40",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 41,
+                    "mtu": 9100,
+                    "name": "Ethernet40",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.80",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.80",
+                                            "state": {
+                                                "ip": "10.0.0.80",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet41"
+                },
+                "name": "Ethernet41",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 42,
+                    "mtu": 9100,
+                    "name": "Ethernet41",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.82",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.82",
+                                            "state": {
+                                                "ip": "10.0.0.82",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet42"
+                },
+                "name": "Ethernet42",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 43,
+                    "mtu": 9100,
+                    "name": "Ethernet42",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.84",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.84",
+                                            "state": {
+                                                "ip": "10.0.0.84",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet43"
+                },
+                "name": "Ethernet43",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 44,
+                    "mtu": 9100,
+                    "name": "Ethernet43",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.86",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.86",
+                                            "state": {
+                                                "ip": "10.0.0.86",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet44"
+                },
+                "name": "Ethernet44",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 45,
+                    "mtu": 9100,
+                    "name": "Ethernet44",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.88",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.88",
+                                            "state": {
+                                                "ip": "10.0.0.88",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet45"
+                },
+                "name": "Ethernet45",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 46,
+                    "mtu": 9100,
+                    "name": "Ethernet45",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.90",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.90",
+                                            "state": {
+                                                "ip": "10.0.0.90",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet46"
+                },
+                "name": "Ethernet46",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 47,
+                    "mtu": 9100,
+                    "name": "Ethernet46",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.92",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.92",
+                                            "state": {
+                                                "ip": "10.0.0.92",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet47"
+                },
+                "name": "Ethernet47",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 48,
+                    "mtu": 9100,
+                    "name": "Ethernet47",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.94",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.94",
+                                            "state": {
+                                                "ip": "10.0.0.94",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet48"
+                },
+                "name": "Ethernet48",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 49,
+                    "mtu": 9100,
+                    "name": "Ethernet48",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.96",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.96",
+                                            "state": {
+                                                "ip": "10.0.0.96",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet49"
+                },
+                "name": "Ethernet49",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 49,
+                    "mtu": 9100,
+                    "name": "Ethernet49",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.98",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.98",
+                                            "state": {
+                                                "ip": "10.0.0.98",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet5"
+                },
+                "name": "Ethernet5",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 6,
+                    "mtu": 9100,
+                    "name": "Ethernet5",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.10",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.10",
+                                            "state": {
+                                                "ip": "10.0.0.10",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet50"
+                },
+                "name": "Ethernet50",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 49,
+                    "mtu": 9100,
+                    "name": "Ethernet50",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.100",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.100",
+                                            "state": {
+                                                "ip": "10.0.0.100",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet51"
+                },
+                "name": "Ethernet51",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 49,
+                    "mtu": 9100,
+                    "name": "Ethernet51",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.102",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.102",
+                                            "state": {
+                                                "ip": "10.0.0.102",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet52"
+                },
+                "name": "Ethernet52",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 50,
+                    "mtu": 9100,
+                    "name": "Ethernet52",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.104",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.104",
+                                            "state": {
+                                                "ip": "10.0.0.104",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet53"
+                },
+                "name": "Ethernet53",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 50,
+                    "mtu": 9100,
+                    "name": "Ethernet53",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.106",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.106",
+                                            "state": {
+                                                "ip": "10.0.0.106",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet54"
+                },
+                "name": "Ethernet54",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 50,
+                    "mtu": 9100,
+                    "name": "Ethernet54",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.108",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.108",
+                                            "state": {
+                                                "ip": "10.0.0.108",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet55"
+                },
+                "name": "Ethernet55",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 50,
+                    "mtu": 9100,
+                    "name": "Ethernet55",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.110",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.110",
+                                            "state": {
+                                                "ip": "10.0.0.110",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet56"
+                },
+                "name": "Ethernet56",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 51,
+                    "mtu": 9100,
+                    "name": "Ethernet56",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.112",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.112",
+                                            "state": {
+                                                "ip": "10.0.0.112",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet57"
+                },
+                "name": "Ethernet57",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 51,
+                    "mtu": 9100,
+                    "name": "Ethernet57",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.114",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.114",
+                                            "state": {
+                                                "ip": "10.0.0.114",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet58"
+                },
+                "name": "Ethernet58",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 51,
+                    "mtu": 9100,
+                    "name": "Ethernet58",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.116",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.116",
+                                            "state": {
+                                                "ip": "10.0.0.116",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet59"
+                },
+                "name": "Ethernet59",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 51,
+                    "mtu": 9100,
+                    "name": "Ethernet59",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.118",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.118",
+                                            "state": {
+                                                "ip": "10.0.0.118",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet6"
+                },
+                "name": "Ethernet6",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 7,
+                    "mtu": 9100,
+                    "name": "Ethernet6",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.12",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.12",
+                                            "state": {
+                                                "ip": "10.0.0.12",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet60"
+                },
+                "name": "Ethernet60",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 52,
+                    "mtu": 9100,
+                    "name": "Ethernet60",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.120",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.120",
+                                            "state": {
+                                                "ip": "10.0.0.120",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet61"
+                },
+                "name": "Ethernet61",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 52,
+                    "mtu": 9100,
+                    "name": "Ethernet61",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.122",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.122",
+                                            "state": {
+                                                "ip": "10.0.0.122",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet62"
+                },
+                "name": "Ethernet62",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 52,
+                    "mtu": 9100,
+                    "name": "Ethernet62",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.124",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.124",
+                                            "state": {
+                                                "ip": "10.0.0.124",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet63"
+                },
+                "name": "Ethernet63",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 52,
+                    "mtu": 9100,
+                    "name": "Ethernet63",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.126",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.126",
+                                            "state": {
+                                                "ip": "10.0.0.126",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet64"
+                },
+                "name": "Ethernet64",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 53,
+                    "mtu": 9100,
+                    "name": "Ethernet64",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.128",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.128",
+                                            "state": {
+                                                "ip": "10.0.0.128",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet65"
+                },
+                "name": "Ethernet65",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 53,
+                    "mtu": 9100,
+                    "name": "Ethernet65",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.130",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.130",
+                                            "state": {
+                                                "ip": "10.0.0.130",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet66"
+                },
+                "name": "Ethernet66",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 53,
+                    "mtu": 9100,
+                    "name": "Ethernet66",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.132",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.132",
+                                            "state": {
+                                                "ip": "10.0.0.132",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet67"
+                },
+                "name": "Ethernet67",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 53,
+                    "mtu": 9100,
+                    "name": "Ethernet67",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.134",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.134",
+                                            "state": {
+                                                "ip": "10.0.0.134",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet68"
+                },
+                "name": "Ethernet68",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 54,
+                    "mtu": 9100,
+                    "name": "Ethernet68",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.136",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.136",
+                                            "state": {
+                                                "ip": "10.0.0.136",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet69"
+                },
+                "name": "Ethernet69",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 54,
+                    "mtu": 9100,
+                    "name": "Ethernet69",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.138",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.138",
+                                            "state": {
+                                                "ip": "10.0.0.138",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet7"
+                },
+                "name": "Ethernet7",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 8,
+                    "mtu": 9100,
+                    "name": "Ethernet7",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.14",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.14",
+                                            "state": {
+                                                "ip": "10.0.0.14",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet70"
+                },
+                "name": "Ethernet70",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 54,
+                    "mtu": 9100,
+                    "name": "Ethernet70",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.140",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.140",
+                                            "state": {
+                                                "ip": "10.0.0.140",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet71"
+                },
+                "name": "Ethernet71",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 54,
+                    "mtu": 9100,
+                    "name": "Ethernet71",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.142",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.142",
+                                            "state": {
+                                                "ip": "10.0.0.142",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet8"
+                },
+                "name": "Ethernet8",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 9,
+                    "mtu": 9100,
+                    "name": "Ethernet8",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.16",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.16",
+                                            "state": {
+                                                "ip": "10.0.0.16",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "description": "",
+                    "mtu": 9100,
+                    "name": "Ethernet9"
+                },
+                "name": "Ethernet9",
+                "openconfig-if-ethernet:ethernet": {
+                    "config": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    },
+                    "state": {
+                        "port-speed": "openconfig-if-ethernet:SPEED_10GB"
+                    }
+                },
+                "state": {
+                    "admin-status": "UP",
+                    "counters": {
+                        "in-broadcast-pkts": "0",
+                        "in-discards": "0",
+                        "in-errors": "0",
+                        "in-multicast-pkts": "0",
+                        "in-octets": "0",
+                        "in-pkts": "0",
+                        "in-unicast-pkts": "0",
+                        "out-broadcast-pkts": "0",
+                        "out-discards": "0",
+                        "out-errors": "0",
+                        "out-multicast-pkts": "0",
+                        "out-octets": "0",
+                        "out-pkts": "0",
+                        "out-unicast-pkts": "0"
+                    },
+                    "description": "",
+                    "ifindex": 10,
+                    "mtu": 9100,
+                    "name": "Ethernet9",
+                    "oper-status": "DOWN"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0,
+                            "openconfig-if-ip:ipv4": {
+                                "addresses": {
+                                    "address": [
+                                        {
+                                            "config": {
+                                                "ip": "10.0.0.18",
+                                                "prefix-length": 31
+                                            },
+                                            "ip": "10.0.0.18",
+                                            "state": {
+                                                "ip": "10.0.0.18",
+                                                "prefix-length": 31
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "name": "PortConfigDone"
+                },
+                "name": "PortConfigDone",
+                "state": {
+                    "name": "PortConfigDone"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {
+                    "name": "PortInitDone"
+                },
+                "name": "PortInitDone",
+                "state": {
+                    "name": "PortInitDone"
+                },
+                "subinterfaces": {
+                    "subinterface": [
+                        {
+                            "index": 0
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
